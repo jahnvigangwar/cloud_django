@@ -55,9 +55,9 @@
             https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp-->
 
             {% if user.is_authenticated %}
-                <button type="button" class="btn btn-info btn-block mt-3" data-toggle="collapse" data-target="#exam">Iniciar Exámen</button>
+                <button type="button" class="btn btn-info btn-block mt-3" data-toggle="collapse" data-target="#exam">Begin the test</button>
             {% else %}
-                <button type="button" class="btn btn-warning btn-block mt-3" data-toggle="collapse" data-target="#">No autentificado</button>
+                <button type="button" class="btn btn-warning btn-block mt-3" data-toggle="collapse" data-target="#">Invalid</button>
             {% endif %}
 
             <!--
